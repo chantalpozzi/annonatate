@@ -1,0 +1,34 @@
+---
+canvas: "https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg"
+order: 1
+---
+{
+    "@context": "http://www.w3.org/ns/anno.jsonld",
+    "type": "Annotation",
+    "body": [
+        {
+            "type": "TextualBody",
+            "value": "astro",
+            "purpose": "commenting",
+            "creator": {
+                "id": "chantalpozzi",
+                "name": "petolla"
+            },
+            "created": "2024-03-15T08:57:03.814Z",
+            "modified": "2024-03-15T08:57:04.962Z"
+        }
+    ],
+    "target": {
+        "source": {
+            "id": "https://upload.wikimedia.org/wikipedia/commons/7/7e/PowersBibleQuilt_1886.jpg",
+            "type": "image"
+        },
+        "selector": {
+            "type": "FragmentSelector",
+            "conformsTo": "http://www.w3.org/TR/media-frags/",
+            "value": "xywh=35.877864837646484,282.0716552734375,46.14079666137695,36.768463134765625"
+        }
+    },
+    "id": "8e1e9625-49c4-4ecc-9dbf-87777280fd99.json",
+    "motivation": "commenting"
+}
